@@ -1,0 +1,18 @@
+debug: false
+uuid: 163c39c8-e733-4de2-a085-be0eca0ed200
+token_id: EsD4534Jj1wPshdV
+token: doF4tLGvW9DZ6uiRUwd3A9xULVO8mtz80HlZJMFjbU2YZgROFjYmCjIypwEKrYyi
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/sg1.frostnetwork.xyz/fullchain.pem
+    key: /etc/letsencrypt/live/sg1.frostnetwork.xyz/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://panel.frostnetwork.xyz'
